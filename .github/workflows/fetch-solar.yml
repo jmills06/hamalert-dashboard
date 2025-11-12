@@ -1,0 +1,88 @@
+name: Fetch Solar Conditions
+
+on:
+  schedule:
+    # Run every hour at minute 0
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  fetch-solar-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install requests
+          
+      - name: Fetch and parse solar data
+        run: |
+          python - <<EOF
+          import requests
+          import json
+          import xml.etree.ElementTree as ET
+          from datetime import datetime
+
+          # Fetch XML data
+          response = requests.get('https://www.hamqsl.com/solarxml.php')
+          response.raise_for_status()
+          
+          # Parse XML
+          root = ET.fromstring(response.content)
+          
+          # Extract data
+          solar_data = {
+              'updated_at': datetime.utcnow().isoformat() + 'Z',
+              'solar': {
+                  'sunspots': root.find('.//sunspots').text if root.find('.//sunspots') is not None else 'N/A',
+                  'solarflux': root.find('.//solarflux').text if root.find('.//solarflux') is not None else 'N/A',
+                  'aindex': root.find('.//aindex').text if root.find('.//aindex') is not None else 'N/A',
+                  'kindex': root.find('.//kindex').text if root.find('.//kindex') is not None else 'N/A',
+                  'solarwind': root.find('.//solarwind').text if root.find('.//solarwind') is not None else 'N/A',
+                  'signalnoise': root.find('.//signalnoise').text if root.find('.//signalnoise') is not None else 'N/A',
+                  'xray': root.find('.//xray').text if root.find('.//xray') is not None else 'N/A',
+                  'geomagfield': root.find('.//geomagfield').text if root.find('.//geomagfield') is not None else 'N/A',
+                  'electonflux': root.find('.//electonflux').text if root.find('.//electonflux') is not None else 'N/A',
+                  'protonflux': root.find('.//protonflux').text if root.find('.//protonflux') is not None else 'N/A'
+              },
+              'hf_bands': {
+                  '80m_40m': {
+                      'day': root.find('.//band8040mday').text if root.find('.//band8040mday') is not None else 'Poor',
+                      'night': root.find('.//band8040mnight').text if root.find('.//band8040mnight') is not None else 'Poor'
+                  },
+                  '30m_20m': {
+                      'day': root.find('.//band3020mday').text if root.find('.//band3020mday') is not None else 'Poor',
+                      'night': root.find('.//band3020mnight').text if root.find('.//band3020mnight') is not None else 'Poor'
+                  },
+                  '17m_15m': {
+                      'day': root.find('.//band1715mday').text if root.find('.//band1715mday') is not None else 'Poor',
+                      'night': root.find('.//band1715mnight').text if root.find('.//band1715mnight') is not None else 'Poor'
+                  },
+                  '12m_10m': {
+                      'day': root.find('.//band1210mday').text if root.find('.//band1210mday') is not None else 'Poor',
+                      'night': root.find('.//band1210mnight').text if root.find('.//band1210mnight') is not None else 'Poor'
+                  }
+              }
+          }
+          
+          # Save to JSON file
+          with open('solar-conditions.json', 'w') as f:
+              json.dump(solar_data, f, indent=2)
+          
+          print("Solar data fetched and saved successfully!")
+          EOF
+          
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add solar-conditions.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update solar conditions data" && git push)
