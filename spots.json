@@ -1,0 +1,31 @@
+[
+  {
+    "fullCallsign": "N8LEK",
+    "callsign": "N8LEK",
+    "frequency": "14.256",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "01:23",
+    "spotter": "K8JKU",
+    "rawText": "SIMULATED SPOT: 01:23 N8LEK (14.256 SSB), from pota, spotted by K8JKU: TEST Louis",
+    "title": "SIMULATED spot N8LEK (14.256 SSB)",
+    "comment": "TEST Louis",
+    "source": "pota",
+    "state": "US_MI",
+    "spotterState": "US_MI",
+    "qsl": "eqsl,lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2025-11-12T01:23:42.712043Z"
+  }
+]
