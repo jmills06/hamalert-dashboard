@@ -37,47 +37,62 @@ jobs:
           
           # Parse XML
           root = ET.fromstring(response.content)
+          solardata = root.find('.//solardata')
           
           # Extract data
           solar_data = {
               'updated_at': datetime.utcnow().isoformat() + 'Z',
               'solar': {
-                  'sunspots': root.find('.//sunspots').text if root.find('.//sunspots') is not None else 'N/A',
-                  'solarflux': root.find('.//solarflux').text if root.find('.//solarflux') is not None else 'N/A',
-                  'aindex': root.find('.//aindex').text if root.find('.//aindex') is not None else 'N/A',
-                  'kindex': root.find('.//kindex').text if root.find('.//kindex') is not None else 'N/A',
-                  'solarwind': root.find('.//solarwind').text if root.find('.//solarwind') is not None else 'N/A',
-                  'signalnoise': root.find('.//signalnoise').text if root.find('.//signalnoise') is not None else 'N/A',
-                  'xray': root.find('.//xray').text if root.find('.//xray') is not None else 'N/A',
-                  'geomagfield': root.find('.//geomagfield').text if root.find('.//geomagfield') is not None else 'N/A',
-                  'electonflux': root.find('.//electonflux').text if root.find('.//electonflux') is not None else 'N/A',
-                  'protonflux': root.find('.//protonflux').text if root.find('.//protonflux') is not None else 'N/A'
+                  'sunspots': solardata.find('sunspots').text if solardata.find('sunspots') is not None else 'N/A',
+                  'solarflux': solardata.find('solarflux').text if solardata.find('solarflux') is not None else 'N/A',
+                  'aindex': solardata.find('aindex').text if solardata.find('aindex') is not None else 'N/A',
+                  'kindex': solardata.find('kindex').text if solardata.find('kindex') is not None else 'N/A',
+                  'solarwind': solardata.find('solarwind').text if solardata.find('solarwind') is not None else 'N/A',
+                  'signalnoise': solardata.find('signalnoise').text if solardata.find('signalnoise') is not None else 'N/A',
+                  'xray': solardata.find('xray').text if solardata.find('xray') is not None else 'N/A',
+                  'geomagfield': solardata.find('geomagfield').text if solardata.find('geomagfield') is not None else 'N/A',
+                  'electonflux': solardata.find('electonflux').text if solardata.find('electonflux') is not None else 'N/A',
+                  'protonflux': solardata.find('protonflux').text if solardata.find('protonflux') is not None else 'N/A'
               },
-              'hf_bands': {
-                  '80m_40m': {
-                      'day': root.find('.//band8040mday').text if root.find('.//band8040mday') is not None else 'Poor',
-                      'night': root.find('.//band8040mnight').text if root.find('.//band8040mnight') is not None else 'Poor'
-                  },
-                  '30m_20m': {
-                      'day': root.find('.//band3020mday').text if root.find('.//band3020mday') is not None else 'Poor',
-                      'night': root.find('.//band3020mnight').text if root.find('.//band3020mnight') is not None else 'Poor'
-                  },
-                  '17m_15m': {
-                      'day': root.find('.//band1715mday').text if root.find('.//band1715mday') is not None else 'Poor',
-                      'night': root.find('.//band1715mnight').text if root.find('.//band1715mnight') is not None else 'Poor'
-                  },
-                  '12m_10m': {
-                      'day': root.find('.//band1210mday').text if root.find('.//band1210mday') is not None else 'Poor',
-                      'night': root.find('.//band1210mnight').text if root.find('.//band1210mnight') is not None else 'Poor'
-                  }
-              }
+              'hf_bands': {}
           }
+          
+          # Parse calculated conditions - new structure
+          calc_conditions = solardata.find('.//calculatedconditions')
+          if calc_conditions is not None:
+              # Create a dictionary to organize by band name
+              bands_dict = {}
+              for band in calc_conditions.findall('band'):
+                  band_name = band.get('name')
+                  time_period = band.get('time')
+                  condition = band.text
+                  
+                  if band_name not in bands_dict:
+                      bands_dict[band_name] = {}
+                  bands_dict[band_name][time_period] = condition
+              
+              # Convert to expected format
+              solar_data['hf_bands'] = {
+                  '80m_40m': bands_dict.get('80m-40m', {'day': 'Poor', 'night': 'Poor'}),
+                  '30m_20m': bands_dict.get('30m-20m', {'day': 'Poor', 'night': 'Poor'}),
+                  '17m_15m': bands_dict.get('17m-15m', {'day': 'Poor', 'night': 'Poor'}),
+                  '12m_10m': bands_dict.get('12m-10m', {'day': 'Poor', 'night': 'Poor'})
+              }
+          else:
+              # Fallback to default Poor conditions
+              solar_data['hf_bands'] = {
+                  '80m_40m': {'day': 'Poor', 'night': 'Poor'},
+                  '30m_20m': {'day': 'Poor', 'night': 'Poor'},
+                  '17m_15m': {'day': 'Poor', 'night': 'Poor'},
+                  '12m_10m': {'day': 'Poor', 'night': 'Poor'}
+              }
           
           # Save to JSON file
           with open('solar-conditions.json', 'w') as f:
               json.dump(solar_data, f, indent=2)
           
           print("Solar data fetched and saved successfully!")
+          print(json.dumps(solar_data, indent=2))
           EOF
           
       - name: Commit and push if changed
