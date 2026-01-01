@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KC5HWB",
+    "callsign": "KC5HWB",
+    "frequency": "28.435",
+    "band": "10m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "19:48",
+    "spotter": "KC5HWB",
+    "rawText": "19:48 KC5HWB in US-3013 (Galveston Island State Park) 28.4350 SSB: Trying some 10M",
+    "title": "POTA KC5HWB in US-3013 (28.4350 SSB)",
+    "comment": "Trying some 10M",
+    "source": "pota",
+    "state": [
+      "US_TX"
+    ],
+    "spotterState": "US_TX",
+    "wwffRef": "US-3013",
+    "wwffDivision": "US",
+    "wwffName": "Galveston Island State Park",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "YouTube",
+    "received_at": "2026-01-01T19:49:55.850681Z"
+  },
+  {
     "fullCallsign": "KI2D",
     "callsign": "KI2D",
     "frequency": "14.080",
@@ -1462,39 +1495,5 @@
     "spotterContinent": "EU",
     "triggerComment": "EDH Guests",
     "received_at": "2025-12-31T19:54:07.392696Z"
-  },
-  {
-    "fullCallsign": "KB4LS",
-    "callsign": "KB4LS",
-    "frequency": "14.237",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "19:07",
-    "spotter": "KB4LS",
-    "rawText": "19:07 KB4LS in US-6855 (Tryon Palace State Historic Site) 14.2370: Cq",
-    "title": "POTA KB4LS in US-6855 (14.2370)",
-    "comment": "Cq",
-    "source": "pota",
-    "state": [
-      "US_NC"
-    ],
-    "spotterState": "US_SC",
-    "wwffRef": "US-6855",
-    "wwffDivision": "US",
-    "wwffName": "Tryon Palace State Historic Site",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "EDH Discord",
-    "received_at": "2025-12-31T19:07:53.746369Z"
   }
 ]
