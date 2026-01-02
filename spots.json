@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "KB9VBR",
+    "callsign": "KB9VBR",
+    "frequency": "14.252",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "19:49",
+    "spotter": "KQ4HZK",
+    "rawText": "19:49 KB9VBR in US-1447 (Council Grounds State Park) 14.2520 SSB: [59 Livermore, KY]",
+    "title": "POTA KB9VBR in US-1447 (14.2520 SSB)",
+    "comment": "[59 Livermore, KY]",
+    "source": "pota",
+    "state": [
+      "US_WI"
+    ],
+    "spotterState": "US_KY",
+    "wwffRef": "US-1447",
+    "wwffDivision": "US",
+    "wwffName": "Council Grounds State Park",
+    "qsl": "eqsl",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "YouTube",
+    "received_at": "2026-01-02T19:50:56.182491Z"
+  },
+  {
     "fullCallsign": "KI2D",
     "callsign": "KI2D",
     "frequency": "14.075848",
@@ -1422,38 +1456,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Guests",
     "received_at": "2026-01-01T19:57:42.835022Z"
-  },
-  {
-    "fullCallsign": "KC5HWB",
-    "callsign": "KC5HWB",
-    "frequency": "28.435",
-    "band": "10m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "19:48",
-    "spotter": "KC5HWB",
-    "rawText": "19:48 KC5HWB in US-3013 (Galveston Island State Park) 28.4350 SSB: Trying some 10M",
-    "title": "POTA KC5HWB in US-3013 (28.4350 SSB)",
-    "comment": "Trying some 10M",
-    "source": "pota",
-    "state": [
-      "US_TX"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-3013",
-    "wwffDivision": "US",
-    "wwffName": "Galveston Island State Park",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-01-01T19:49:55.850681Z"
   }
 ]
