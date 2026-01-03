@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "N8JRD",
+    "callsign": "N8JRD",
+    "frequency": "14.239",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "20:19",
+    "spotter": "NP4JJ",
+    "rawText": "20:19 N8JRD in US-3315 (Island Lake State Recreation Area) 14.2390 SSB: 55",
+    "title": "POTA N8JRD in US-3315 (14.2390 SSB)",
+    "comment": "55",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_PR",
+    "wwffRef": "US-3315",
+    "wwffDivision": "US",
+    "wwffName": "Island Lake State Recreation Area",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 202,
+    "spotterEntity": "Puerto Rico",
+    "spotterCq": "8",
+    "spotterContinent": "NA",
+    "triggerComment": "Everyday Ham",
+    "received_at": "2026-01-03T20:19:56.158472Z"
+  },
+  {
     "fullCallsign": "KF8DGZ",
     "callsign": "KF8DGZ",
     "frequency": "14.074",
@@ -1594,38 +1628,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-01-03T17:22:26.040383Z"
-  },
-  {
-    "fullCallsign": "K8ERS",
-    "callsign": "K8ERS",
-    "frequency": "14.225",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "17:15",
-    "spotter": "KF8FKM",
-    "rawText": "17:15 K8ERS in US-3315 (Island Lake State Recreation Area) 14.2250 SSB",
-    "title": "POTA K8ERS in US-3315 (14.2250 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "wwffRef": "US-3315",
-    "wwffDivision": "US",
-    "wwffName": "Island Lake State Recreation Area",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-01-03T17:15:56.073126Z"
   }
 ]
