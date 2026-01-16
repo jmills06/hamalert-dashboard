@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KB9VBR",
+    "callsign": "KB9VBR",
+    "frequency": "14.263",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "22:17",
+    "spotter": "TI3GB",
+    "rawText": "22:17 KB9VBR in US-9796 (Green Circle State Trail) 14.2630 SSB: 51 in Costa Rica = tnx!",
+    "title": "POTA KB9VBR in US-9796 (14.2630 SSB)",
+    "comment": "51 in Costa Rica = tnx!",
+    "source": "pota",
+    "state": [
+      "US_WI"
+    ],
+    "wwffRef": "US-9796",
+    "wwffDivision": "US",
+    "wwffName": "Green Circle State Trail",
+    "qsl": "eqsl",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 308,
+    "spotterEntity": "Costa Rica",
+    "spotterCq": "7",
+    "spotterContinent": "NA",
+    "triggerComment": "YouTube",
+    "received_at": "2026-01-16T22:18:25.090196Z"
+  },
+  {
     "fullCallsign": "N8JRD",
     "callsign": "N8JRD",
     "frequency": "14.075769",
@@ -1418,39 +1451,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Discord",
     "received_at": "2026-01-14T23:44:25.886852Z"
-  },
-  {
-    "fullCallsign": "K8MRD",
-    "callsign": "K8MRD",
-    "frequency": "14.310",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "23:37",
-    "spotter": "K8MRD",
-    "rawText": "23:37 K8MRD in US-3019 (Huntsville State Park) 14.3100 SSB: Qrt 3-fer: US-3019 US-4417 US-10509",
-    "title": "POTA K8MRD in US-3019 (14.3100 SSB)",
-    "comment": "Qrt 3-fer: US-3019 US-4417 US-10509",
-    "source": "pota",
-    "state": [
-      "US_TX"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-3019",
-    "wwffDivision": "US",
-    "wwffName": "Huntsville State Park",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-01-14T23:38:23.355717Z"
   }
 ]
