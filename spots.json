@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8JKU",
+    "callsign": "K8JKU",
+    "frequency": "14.192",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "15:24",
+    "spotter": "K8JKU",
+    "rawText": "15:24 K8JKU in US-3323 (Pontiac Lake State Recreation Area) 14.1920 SSB: Qrt",
+    "title": "POTA K8JKU in US-3323 (14.1920 SSB)",
+    "comment": "Qrt",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-3323",
+    "wwffDivision": "US",
+    "wwffName": "Pontiac Lake State Recreation Area",
+    "qsl": "eqsl,lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "Everyday Ham",
+    "received_at": "2026-01-18T15:24:26.228578Z"
+  },
+  {
     "fullCallsign": "N8JRD",
     "callsign": "N8JRD",
     "frequency": "10.136",
@@ -1431,38 +1465,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-01-16T22:31:25.415517Z"
-  },
-  {
-    "fullCallsign": "KB9VBR",
-    "callsign": "KB9VBR",
-    "frequency": "14.263",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "22:17",
-    "spotter": "TI3GB",
-    "rawText": "22:17 KB9VBR in US-9796 (Green Circle State Trail) 14.2630 SSB: 51 in Costa Rica = tnx!",
-    "title": "POTA KB9VBR in US-9796 (14.2630 SSB)",
-    "comment": "51 in Costa Rica = tnx!",
-    "source": "pota",
-    "state": [
-      "US_WI"
-    ],
-    "wwffRef": "US-9796",
-    "wwffDivision": "US",
-    "wwffName": "Green Circle State Trail",
-    "qsl": "eqsl",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 308,
-    "spotterEntity": "Costa Rica",
-    "spotterCq": "7",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-01-16T22:18:25.090196Z"
   }
 ]
