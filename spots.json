@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8JKU",
+    "callsign": "K8JKU",
+    "frequency": "14.192",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "15:02",
+    "spotter": "K8IB",
+    "rawText": "15:02 K8JKU in US-3323 (Pontiac Lake State Recreation Area) 14.1920 SSB: Phone",
+    "title": "POTA K8JKU in US-3323 (14.1920 SSB)",
+    "comment": "Phone",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_AL",
+    "wwffRef": "US-3323",
+    "wwffDivision": "US",
+    "wwffName": "Pontiac Lake State Recreation Area",
+    "qsl": "eqsl,lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "Everyday Ham",
+    "received_at": "2026-01-18T15:02:26.177776Z"
+  },
+  {
     "fullCallsign": "N8JRD",
     "callsign": "N8JRD",
     "frequency": "28.074834",
@@ -1431,38 +1465,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-01-16T22:07:25.420929Z"
-  },
-  {
-    "fullCallsign": "KB9VBR",
-    "callsign": "KB9VBR",
-    "frequency": "14.263",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "21:57",
-    "spotter": "VE1BQC",
-    "rawText": "21:57 KB9VBR in US-9796 (Green Circle State Trail) 14.2630 SSB: 55 NB",
-    "title": "POTA KB9VBR in US-9796 (14.2630 SSB)",
-    "comment": "55 NB",
-    "source": "pota",
-    "state": [
-      "US_WI"
-    ],
-    "wwffRef": "US-9796",
-    "wwffDivision": "US",
-    "wwffName": "Green Circle State Trail",
-    "qsl": "eqsl",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 1,
-    "spotterEntity": "Canada",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-01-16T21:57:25.194841Z"
   }
 ]
