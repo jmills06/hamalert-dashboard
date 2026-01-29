@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KC5HWB",
+    "callsign": "KC5HWB",
+    "frequency": "28.354",
+    "band": "10m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "20:31",
+    "spotter": "KC5HWB",
+    "rawText": "20:31 KC5HWB in US-3013 (Galveston Island State Park) 28.3540 SSB: Let's do some 10M",
+    "title": "POTA KC5HWB in US-3013 (28.3540 SSB)",
+    "comment": "Let's do some 10M",
+    "source": "pota",
+    "state": [
+      "US_TX"
+    ],
+    "spotterState": "US_TX",
+    "wwffRef": "US-3013",
+    "wwffDivision": "US",
+    "wwffName": "Galveston Island State Park",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "YouTube",
+    "received_at": "2026-01-29T20:32:16.824610Z"
+  },
+  {
     "fullCallsign": "N8JRD",
     "callsign": "N8JRD",
     "frequency": "14.075675",
@@ -1441,38 +1474,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Discord",
     "received_at": "2026-01-25T19:09:37.998682Z"
-  },
-  {
-    "fullCallsign": "W8EDH",
-    "callsign": "W8EDH",
-    "frequency": "7.269",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "15:35",
-    "spotter": "K8WAG",
-    "rawText": "15:35 W8EDH in US-3315 (Island Lake State Recreation Area) 7.2690 SSB: [59 OH]",
-    "title": "POTA W8EDH in US-3315 (7.2690 SSB)",
-    "comment": "[59 OH]",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_OH",
-    "wwffRef": "US-3315",
-    "wwffDivision": "US",
-    "wwffName": "Island Lake State Recreation Area",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "Everyday Ham",
-    "received_at": "2026-01-25T15:36:37.574780Z"
   }
 ]
