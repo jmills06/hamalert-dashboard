@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-10T18:48:18.054507Z",
+  "updated_at": "2026-05-10T21:39:20.004584Z",
   "solar": {
     "sunspots": "89",
-    "solarflux": "122",
+    "solarflux": "126",
     "aindex": " 5",
     "kindex": " 1",
-    "solarwind": "421.3",
+    "solarwind": "408.9",
     "signalnoise": "S0-S1",
-    "xray": "C1.1",
+    "xray": "B7.8",
     "geomagfield": "VR QUIET",
-    "electonflux": "1900",
-    "protonflux": "9"
+    "electonflux": "1550",
+    "protonflux": "7"
   },
   "hf_bands": {
     "80m_40m": {
@@ -22,8 +22,8 @@
       "night": "Good"
     },
     "17m_15m": {
-      "day": "Fair",
-      "night": "Fair"
+      "day": "Good",
+      "night": "Good"
     },
     "12m_10m": {
       "day": "Fair",
