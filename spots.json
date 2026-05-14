@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "N8JRD",
+    "callsign": "N8JRD",
+    "frequency": "7.288",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "14:57",
+    "spotter": "N8JRD",
+    "rawText": "14:57 N8JRD in US-1940 (Caesar Creek State Park) 7.2880 SSB: QRV",
+    "title": "POTA N8JRD in US-1940 (7.2880 SSB)",
+    "comment": "QRV",
+    "source": "pota",
+    "state": [
+      "US_OH"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-1940",
+    "wwffDivision": "US",
+    "wwffName": "Caesar Creek State Park",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "Everyday Ham",
+    "received_at": "2026-05-14T14:58:40.906077Z"
+  },
+  {
     "fullCallsign": "KB9VBR",
     "callsign": "KB9VBR",
     "frequency": "7.234",
@@ -1503,38 +1537,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Discord",
     "received_at": "2026-05-12T14:13:18.714610Z"
-  },
-  {
-    "fullCallsign": "N1RWJ",
-    "callsign": "N1RWJ",
-    "frequency": "14.049",
-    "band": "20m",
-    "mode": "cw",
-    "modeDetail": "cw",
-    "time": "14:02",
-    "spotter": "DK7OG",
-    "rawText": "14:02 N1RWJ in US-6992 (JL Curran State Park) 14.0490 CW: 579 in JO74aa, tnx qso!",
-    "title": "POTA N1RWJ in US-6992 (14.0490 CW)",
-    "comment": "579 in JO74aa, tnx qso!",
-    "source": "pota",
-    "state": [
-      "US_RI"
-    ],
-    "wwffRef": "US-6992",
-    "wwffDivision": "US",
-    "wwffName": "JL Curran State Park",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 230,
-    "spotterEntity": "Federal Republic of Germany",
-    "spotterCq": "14",
-    "spotterContinent": "EU",
-    "triggerComment": "EDH Discord",
-    "received_at": "2026-05-12T14:02:30.189896Z"
   }
 ]
