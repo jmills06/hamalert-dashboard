@@ -1,5 +1,37 @@
 [
   {
+    "fullCallsign": "K2J/25",
+    "callsign": "K2J",
+    "frequency": "14.277",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "16:57",
+    "spotter": "K2J/25",
+    "rawText": "16:57 K2J/25 in US-6843 (Historic Halifax State Historic Site) 14.2770 SSB",
+    "title": "POTA K2J/25 in US-6843 (14.2770 SSB)",
+    "comment": "",
+    "source": "pota",
+    "state": [
+      "US_NC"
+    ],
+    "wwffRef": "US-6843",
+    "wwffDivision": "US",
+    "wwffName": "Historic Halifax State Historic Site",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "5",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "5",
+    "spotterContinent": "NA",
+    "triggerComment": "13 Col SSB",
+    "received_at": "2026-07-01T16:57:58.364190Z"
+  },
+  {
     "fullCallsign": "K2J",
     "callsign": "K2J",
     "frequency": "7.265",
@@ -1352,28 +1384,5 @@
     "spotterContinent": "NA",
     "triggerComment": "13 Col SSB",
     "received_at": "2026-07-01T15:54:00.755950Z"
-  },
-  {
-    "fullCallsign": "K2B",
-    "callsign": "K2B",
-    "frequency": "14.075275",
-    "band": "20m",
-    "mode": "ft8",
-    "modeDetail": "ft8",
-    "time": "15:53",
-    "spotter": null,
-    "snr": -11,
-    "rawText": "DX de null: 14075.3 K2B FT8 -11 dB 1553Z (FT8TW 0.93d71)",
-    "title": "PSK Reporter spot K2B (14.075275 FT8)",
-    "source": "pskreporter",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "triggerComment": "13 Col FT8",
-    "received_at": "2026-07-01T15:53:38.050021Z"
   }
 ]
