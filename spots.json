@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "K2J/25",
+    "callsign": "K2J",
+    "frequency": "14.277",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "15:45",
+    "spotter": "WY8N",
+    "rawText": "15:45 K2J/25 in US-6843 (Historic Halifax State Historic Site) 14.2770 SSB: SAB",
+    "title": "POTA K2J/25 in US-6843 (14.2770 SSB)",
+    "comment": "SAB",
+    "source": "pota",
+    "state": [
+      "US_NC"
+    ],
+    "spotterState": "US_NC",
+    "wwffRef": "US-6843",
+    "wwffDivision": "US",
+    "wwffName": "Historic Halifax State Historic Site",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "5",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "5",
+    "spotterContinent": "NA",
+    "triggerComment": "13 Col SSB",
+    "received_at": "2026-07-01T15:45:57.365772Z"
+  },
+  {
     "fullCallsign": "K2A",
     "callsign": "K2A",
     "frequency": "14.048538",
@@ -1445,39 +1478,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-06-30T21:17:47.790392Z"
-  },
-  {
-    "fullCallsign": "K8MRD",
-    "callsign": "K8MRD",
-    "frequency": "14.315",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "21:04",
-    "spotter": "K8MRD",
-    "rawText": "21:04 K8MRD in US-4417 (Sam Houston National Forest) 14.3150 SSB: HUNT ME! (SENT VIA OFFLINE SPOTTER FOR IOS) [SMS] [APSPOT]",
-    "title": "POTA K8MRD in US-4417 (14.3150 SSB)",
-    "comment": "HUNT ME! (SENT VIA OFFLINE SPOTTER FOR IOS) [SMS] [APSPOT]",
-    "source": "pota",
-    "state": [
-      "US_TX"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-4417",
-    "wwffDivision": "US",
-    "wwffName": "Sam Houston National Forest",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-06-30T21:05:47.961237Z"
   }
 ]
