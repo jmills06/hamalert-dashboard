@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "K2K/P",
+    "callsign": "K2K",
+    "frequency": "14.227",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "13:10",
+    "spotter": "N3MRA",
+    "rawText": "13:10 K2K/P in US-0448 (Great Bay National Wildlife Refuge) 14.2270 SSB",
+    "title": "POTA K2K/P in US-0448 (14.2270 SSB)",
+    "comment": "",
+    "source": "pota",
+    "state": [
+      "US_NH"
+    ],
+    "spotterState": "US_NM",
+    "wwffRef": "US-0448",
+    "wwffDivision": "US",
+    "wwffName": "Great Bay National Wildlife Refuge",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "5",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "13 Col SSB",
+    "received_at": "2026-07-02T13:11:08.431741Z"
+  },
+  {
     "fullCallsign": "K2B",
     "callsign": "K2B",
     "frequency": "7.268",
@@ -1455,37 +1488,5 @@
     "spotterContinent": "NA",
     "triggerComment": "13 Col SSB",
     "received_at": "2026-07-02T10:06:02.137400Z"
-  },
-  {
-    "fullCallsign": "K2K/P",
-    "callsign": "K2K",
-    "frequency": "7.213",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "09:53",
-    "spotter": "K2K/P",
-    "rawText": "09:53 K2K/P in US-0448 (Great Bay National Wildlife Refuge) 7.2130 SSB: NH - 13 Colonies Special Event",
-    "title": "POTA K2K/P in US-0448 (7.2130 SSB)",
-    "comment": "NH - 13 Colonies Special Event",
-    "source": "pota",
-    "state": [
-      "US_NH"
-    ],
-    "wwffRef": "US-0448",
-    "wwffDivision": "US",
-    "wwffName": "Great Bay National Wildlife Refuge",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "13 Col SSB",
-    "received_at": "2026-07-02T09:54:09.129409Z"
   }
 ]
