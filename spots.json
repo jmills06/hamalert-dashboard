@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "K2K/P",
+    "callsign": "K2K",
+    "frequency": "14.227",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "14:45",
+    "spotter": "KN4NGK",
+    "rawText": "14:45 K2K/P in US-0448 (Great Bay National Wildlife Refuge) 14.2270 SSB: < 73 from east Tennessee >",
+    "title": "POTA K2K/P in US-0448 (14.2270 SSB)",
+    "comment": "< 73 from east Tennessee >",
+    "source": "pota",
+    "state": [
+      "US_NH"
+    ],
+    "spotterState": "US_TN",
+    "wwffRef": "US-0448",
+    "wwffDivision": "US",
+    "wwffName": "Great Bay National Wildlife Refuge",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "5",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "13 Col SSB",
+    "received_at": "2026-07-02T14:46:08.708916Z"
+  },
+  {
     "fullCallsign": "K2A",
     "callsign": "K2A",
     "frequency": "18.120",
@@ -1409,38 +1442,5 @@
     "spotterContinent": "NA",
     "triggerComment": "13 Col SSB",
     "received_at": "2026-07-02T12:41:45.714798Z"
-  },
-  {
-    "fullCallsign": "WM3PEN/SSB",
-    "callsign": "WM3PEN",
-    "frequency": "7.258",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "12:36",
-    "spotter": "AD2LD",
-    "rawText": "12:36 WM3PEN/SSB in US-2089 (Keuka Lake State Park) 7.2580 SSB: 13 Colonies SE and twofer",
-    "title": "POTA WM3PEN/SSB in US-2089 (7.2580 SSB)",
-    "comment": "13 Colonies SE and twofer",
-    "source": "pota",
-    "state": [
-      "US_NY"
-    ],
-    "spotterState": "US_NY",
-    "wwffRef": "US-2089",
-    "wwffDivision": "US",
-    "wwffName": "Keuka Lake State Park",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "13 Col SSB",
-    "received_at": "2026-07-02T12:37:08.333379Z"
   }
 ]
