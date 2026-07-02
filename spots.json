@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "WM3PEN/SSB",
+    "callsign": "WM3PEN",
+    "frequency": "7.258",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "13:16",
+    "spotter": "K3YR",
+    "rawText": "13:16 WM3PEN/SSB in US-2089 (Keuka Lake State Park) 7.2580 SSB: QRT",
+    "title": "POTA WM3PEN/SSB in US-2089 (7.2580 SSB)",
+    "comment": "QRT",
+    "source": "pota",
+    "state": [
+      "US_NY"
+    ],
+    "spotterState": "US_PA",
+    "wwffRef": "US-2089",
+    "wwffDivision": "US",
+    "wwffName": "Keuka Lake State Park",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "5",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "5",
+    "spotterContinent": "NA",
+    "triggerComment": "13 Col SSB",
+    "received_at": "2026-07-02T13:17:08.692210Z"
+  },
+  {
     "fullCallsign": "K2F",
     "callsign": "K2F",
     "frequency": "14.305",
@@ -1449,38 +1482,5 @@
     "spotterContinent": "NA",
     "triggerComment": "13 Col SSB",
     "received_at": "2026-07-02T10:36:07.774918Z"
-  },
-  {
-    "fullCallsign": "K2K/P",
-    "callsign": "K2K",
-    "frequency": "7.213",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "10:26",
-    "spotter": "N3MAV",
-    "rawText": "10:26 K2K/P in US-0448 (Great Bay National Wildlife Refuge) 7.2130 SSB",
-    "title": "POTA K2K/P in US-0448 (7.2130 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_NH"
-    ],
-    "spotterState": "US_FL",
-    "wwffRef": "US-0448",
-    "wwffDivision": "US",
-    "wwffName": "Great Bay National Wildlife Refuge",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "13 Col SSB",
-    "received_at": "2026-07-02T10:26:07.935994Z"
   }
 ]
