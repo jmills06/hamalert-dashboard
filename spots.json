@@ -1,5 +1,37 @@
 [
   {
+    "fullCallsign": "K2K/P",
+    "callsign": "K2K",
+    "frequency": "7.213",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "11:21",
+    "spotter": "K2K/P",
+    "rawText": "11:21 K2K/P in US-4889 (Conway Common Lands State Forest) 7.2130 SSB: NH - 13 Colonies Special Event",
+    "title": "POTA K2K/P in US-4889 (7.2130 SSB)",
+    "comment": "NH - 13 Colonies Special Event",
+    "source": "pota",
+    "state": [
+      "US_NH"
+    ],
+    "wwffRef": "US-4889",
+    "wwffDivision": "US",
+    "wwffName": "Conway Common Lands State Forest",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "5",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "5",
+    "spotterContinent": "NA",
+    "triggerComment": "13 Col SSB",
+    "received_at": "2026-07-03T11:22:16.411697Z"
+  },
+  {
     "fullCallsign": "K2K",
     "callsign": "K2K",
     "frequency": "7.212",
@@ -1432,40 +1464,5 @@
     "spotterContinent": "NA",
     "triggerComment": "13 Col SSB",
     "received_at": "2026-07-03T02:04:17.482764Z"
-  },
-  {
-    "fullCallsign": "K2J/25",
-    "callsign": "K2J",
-    "frequency": "7.181",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "02:02",
-    "spotter": "K2J/25",
-    "rawText": "02:02 K2J/25 in US-4577 (Overmountain Victory National Historic Trail) 7.1810 SSB",
-    "title": "POTA K2J/25 in US-4577 (7.1810 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_NC",
-      "US_SC",
-      "US_TN",
-      "US_VA"
-    ],
-    "wwffRef": "US-4577",
-    "wwffDivision": "US",
-    "wwffName": "Overmountain Victory National Historic Trail",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "13 Col SSB",
-    "received_at": "2026-07-03T02:03:12.632229Z"
   }
 ]
