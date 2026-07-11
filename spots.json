@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.210",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "18:50",
+    "spotter": "KN4AL",
+    "rawText": "18:50 KN4AL in US-3313 (Holly State Recreation Area) 7.2100 SSB: SSB",
+    "title": "POTA KN4AL in US-3313 (7.2100 SSB)",
+    "comment": "SSB",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-3313",
+    "wwffDivision": "US",
+    "wwffName": "Holly State Recreation Area",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-07-11T18:50:24.134671Z"
+  },
+  {
     "fullCallsign": "KI2D",
     "callsign": "KI2D",
     "frequency": "14.2429",
@@ -1455,39 +1488,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-07-09T22:30:09.303471Z"
-  },
-  {
-    "fullCallsign": "K8MRD",
-    "callsign": "K8MRD",
-    "frequency": "14.320",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "22:19",
-    "spotter": "K8MRD",
-    "rawText": "22:19 K8MRD in US-3019 (Huntsville State Park) 14.3200 SSB: QRV  3-fer: US-3019 US-4417 US-10509",
-    "title": "POTA K8MRD in US-3019 (14.3200 SSB)",
-    "comment": "QRV  3-fer: US-3019 US-4417 US-10509",
-    "source": "pota",
-    "state": [
-      "US_TX"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-3019",
-    "wwffDivision": "US",
-    "wwffName": "Huntsville State Park",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-07-09T22:20:10.815411Z"
   }
 ]
