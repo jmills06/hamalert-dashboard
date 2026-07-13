@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "KI2D",
+    "callsign": "KI2D",
+    "frequency": "14.276",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "20:33",
+    "spotter": "KI2D",
+    "rawText": "20:33 KI2D in US-12059 (Oak Ridge Multiple Use Area) 14.2760 SSB: QRV",
+    "title": "POTA KI2D in US-12059 (14.2760 SSB)",
+    "comment": "QRV",
+    "source": "pota",
+    "state": [
+      "US_NY"
+    ],
+    "spotterState": "US_NY",
+    "wwffRef": "US-12059",
+    "wwffDivision": "US",
+    "wwffName": "Oak Ridge Multiple Use Area",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "5",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "5",
+    "spotterContinent": "NA",
+    "triggerComment": "EDH Guests",
+    "received_at": "2026-07-13T20:34:39.149823Z"
+  },
+  {
     "fullCallsign": "N8LEK/VE3",
     "callsign": "N8LEK",
     "frequency": "7.274",
@@ -1503,38 +1537,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-07-10T19:10:16.687658Z"
-  },
-  {
-    "fullCallsign": "KB9VBR",
-    "callsign": "KB9VBR",
-    "frequency": "14.251",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "18:56",
-    "spotter": "VE1BQC",
-    "rawText": "18:56 KB9VBR in US-4310 (Mead State Wildlife Area) 14.2510 SSB: 55 NB",
-    "title": "POTA KB9VBR in US-4310 (14.2510 SSB)",
-    "comment": "55 NB",
-    "source": "pota",
-    "state": [
-      "US_WI"
-    ],
-    "wwffRef": "US-4310",
-    "wwffDivision": "US",
-    "wwffName": "Mead State Wildlife Area",
-    "qsl": "eqsl",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 1,
-    "spotterEntity": "Canada",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-07-10T18:57:16.471523Z"
   }
 ]
