@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "N8LEK/VE3",
+    "callsign": "N8LEK",
+    "frequency": "7.274",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "18:43",
+    "spotter": "N8LEK",
+    "rawText": "18:43 N8LEK/VE3 in CA-0067 (Point Pelee National Park) 7.2740: CQ",
+    "title": "POTA N8LEK/VE3 in CA-0067 (7.2740)",
+    "comment": "CQ",
+    "source": "pota",
+    "state": [
+      "CA_ON"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "CA-0067",
+    "wwffDivision": "CA",
+    "wwffName": "Point Pelee National Park",
+    "dxcc": 1,
+    "entity": "Canada",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-07-13T18:44:37.530586Z"
+  },
+  {
     "fullCallsign": "N8LEK",
     "callsign": "N8LEK",
     "frequency": "14.295",
@@ -1504,39 +1537,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-07-10T18:44:16.599076Z"
-  },
-  {
-    "fullCallsign": "KB9VBR",
-    "callsign": "KB9VBR",
-    "frequency": "14.251",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "18:32",
-    "spotter": "KJ5JR",
-    "rawText": "18:32 KB9VBR in US-4310 (Mead State Wildlife Area) 14.2510 SSB",
-    "title": "POTA KB9VBR in US-4310 (14.2510 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_WI"
-    ],
-    "spotterState": "US_MS",
-    "wwffRef": "US-4310",
-    "wwffDivision": "US",
-    "wwffName": "Mead State Wildlife Area",
-    "qsl": "eqsl",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-07-10T18:33:16.777042Z"
   }
 ]
