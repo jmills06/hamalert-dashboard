@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8MRD",
+    "callsign": "K8MRD",
+    "frequency": "14.320",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "16:09",
+    "spotter": "K8MRD",
+    "rawText": "16:09 K8MRD in US-3019 (Huntsville State Park) 14.3200 SSB: QRV  3-fer: US-3019 US-4417 US-10509",
+    "title": "POTA K8MRD in US-3019 (14.3200 SSB)",
+    "comment": "QRV  3-fer: US-3019 US-4417 US-10509",
+    "source": "pota",
+    "state": [
+      "US_TX"
+    ],
+    "spotterState": "US_TX",
+    "wwffRef": "US-3019",
+    "wwffDivision": "US",
+    "wwffName": "Huntsville State Park",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "YouTube",
+    "received_at": "2026-07-15T16:10:36.224984Z"
+  },
+  {
     "fullCallsign": "N1RWJ",
     "callsign": "N1RWJ",
     "frequency": "14.061",
@@ -1521,38 +1555,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-07-11T19:58:24.084822Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "7.210",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "19:05",
-    "spotter": "KC3AEV",
-    "rawText": "19:05 KN4AL in US-3313 (Holly State Recreation Area) 7.2100 SSB: 55 Clarion PA",
-    "title": "POTA KN4AL in US-3313 (7.2100 SSB)",
-    "comment": "55 Clarion PA",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_PA",
-    "wwffRef": "US-3313",
-    "wwffDivision": "US",
-    "wwffName": "Holly State Recreation Area",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-07-11T19:05:22.388927Z"
   }
 ]
