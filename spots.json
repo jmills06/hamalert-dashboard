@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.210",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "19:06",
+    "spotter": "VE3KJS",
+    "rawText": "19:06 KN4AL in US-6726 (Malan Waterfowl National Wildlife Management Area) 7.2100 SSB: 59",
+    "title": "POTA KN4AL in US-6726 (7.2100 SSB)",
+    "comment": "59",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "CA_ON",
+    "wwffRef": "US-6726",
+    "wwffDivision": "US",
+    "wwffName": "Malan Waterfowl National Wildlife Management Area",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 1,
+    "spotterEntity": "Canada",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-07-18T19:07:22.138930Z"
+  },
+  {
     "fullCallsign": "KB4LS",
     "callsign": "KB4LS",
     "frequency": "28.075295",
@@ -1436,29 +1469,5 @@
     "spotterContinent": "EU",
     "triggerComment": "Everyday Ham",
     "received_at": "2026-07-18T02:43:19.318064Z"
-  },
-  {
-    "fullCallsign": "N8JRD",
-    "callsign": "N8JRD",
-    "frequency": "14.095665",
-    "band": "20m",
-    "mode": "ft8",
-    "modeDetail": "ft8",
-    "time": "02:42",
-    "spotter": "WA4709SWL",
-    "snr": -6,
-    "rawText": "DX de WA4709SWL: 14095.7 N8JRD FT8 -6 dB 0242Z (WSJT-X v3.1.0 i+)",
-    "title": "PSK Reporter spot N8JRD (14.095665 FT8)",
-    "source": "pskreporter",
-    "state": "US_MI",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "triggerComment": "Everyday Ham",
-    "received_at": "2026-07-18T02:42:57.228495Z"
   }
 ]
