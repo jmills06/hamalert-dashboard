@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-18T12:53:54.907520Z",
+  "updated_at": "2026-07-18T15:45:09.797587Z",
   "solar": {
-    "sunspots": "25",
+    "sunspots": "24",
     "solarflux": "105",
     "aindex": " 4",
     "kindex": " 1",
-    "solarwind": "366.8",
+    "solarwind": "359.1",
     "signalnoise": "S0-S1",
-    "xray": "B7.2",
+    "xray": "B7.5",
     "geomagfield": "VR QUIET",
-    "electonflux": "1490",
+    "electonflux": "1200",
     "protonflux": "12"
   },
   "hf_bands": {
