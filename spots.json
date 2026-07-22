@@ -1,5 +1,28 @@
 [
   {
+    "fullCallsign": "N1RWJ",
+    "callsign": "N1RWJ",
+    "frequency": "14.0755",
+    "band": "20m",
+    "mode": "ft8",
+    "modeDetail": "ft8",
+    "time": "21:05",
+    "spotter": "KX4AZ/T",
+    "rawText": "DX de KX4AZ/T: 14075.5 N1RWJ FT8 2105Z (N1DQ-KA9Q-Radio/1.3)",
+    "title": "PSK Reporter spot N1RWJ (14.0755 FT8)",
+    "source": "pskreporter",
+    "state": "US_RI",
+    "qsl": "eqsl,lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "5",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "triggerComment": "EDH Discord",
+    "received_at": "2026-07-22T21:06:42.053392Z"
+  },
+  {
     "fullCallsign": "KB4LS",
     "callsign": "KB4LS",
     "frequency": "14.076382",
@@ -1407,39 +1430,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Discord",
     "received_at": "2026-07-20T23:09:41.783575Z"
-  },
-  {
-    "fullCallsign": "K8JKU",
-    "callsign": "K8JKU",
-    "frequency": "7.215",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "22:04",
-    "spotter": "K8JKU",
-    "rawText": "22:04 K8JKU in US-3323 (Pontiac Lake State Recreation Area) 7.2150 SSB",
-    "title": "POTA K8JKU in US-3323 (7.2150 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-3323",
-    "wwffDivision": "US",
-    "wwffName": "Pontiac Lake State Recreation Area",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "Everyday Ham",
-    "received_at": "2026-07-20T22:04:34.286683Z"
   }
 ]
