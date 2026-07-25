@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.248",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "22:21",
+    "spotter": "KN4AL",
+    "rawText": "22:21 KN4AL in US-9428 (Rockbridge State Nature Preserve) 7.2480 SSB: Qrt 73",
+    "title": "POTA KN4AL in US-9428 (7.2480 SSB)",
+    "comment": "Qrt 73",
+    "source": "pota",
+    "state": [
+      "US_OH"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-9428",
+    "wwffDivision": "US",
+    "wwffName": "Rockbridge State Nature Preserve",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-07-25T22:22:25.086124Z"
+  },
+  {
     "fullCallsign": "KB4LS",
     "callsign": "KB4LS",
     "frequency": "28.075472",
@@ -1481,39 +1514,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Discord",
     "received_at": "2026-07-25T17:00:02.294618Z"
-  },
-  {
-    "fullCallsign": "K8JKU",
-    "callsign": "K8JKU",
-    "frequency": "14.323",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "16:51",
-    "spotter": "K8JKU",
-    "rawText": "16:51 K8JKU in US-4583 (Manistee National Forest) 14.3230: Cq",
-    "title": "POTA K8JKU in US-4583 (14.3230)",
-    "comment": "Cq",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-4583",
-    "wwffDivision": "US",
-    "wwffName": "Manistee National Forest",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "Everyday Ham",
-    "received_at": "2026-07-25T16:52:01.184414Z"
   }
 ]
