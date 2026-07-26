@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.245",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "20:10",
+    "spotter": "KO4KAD",
+    "rawText": "20:10 KN4AL in US-9417 (Kessler Swamp State Nature Preserve) 7.2450 SSB: 5x9 va 73",
+    "title": "POTA KN4AL in US-9417 (7.2450 SSB)",
+    "comment": "5x9 va 73",
+    "source": "pota",
+    "state": [
+      "US_OH"
+    ],
+    "spotterState": "US_VA",
+    "wwffRef": "US-9417",
+    "wwffDivision": "US",
+    "wwffName": "Kessler Swamp State Nature Preserve",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "5",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-07-26T20:10:32.630816Z"
+  },
+  {
     "fullCallsign": "KB4LS",
     "callsign": "KB4LS",
     "frequency": "21.075376",
@@ -1523,39 +1556,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-07-26T16:07:32.423713Z"
-  },
-  {
-    "fullCallsign": "K8MRD",
-    "callsign": "K8MRD",
-    "frequency": "14.237",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "16:05",
-    "spotter": "K8MRD",
-    "rawText": "16:05 K8MRD in US-3019 (Huntsville State Park) 14.2370 SSB: QSY  3-fer: US-3019 US-4417 US-10509",
-    "title": "POTA K8MRD in US-3019 (14.2370 SSB)",
-    "comment": "QSY  3-fer: US-3019 US-4417 US-10509",
-    "source": "pota",
-    "state": [
-      "US_TX"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-3019",
-    "wwffDivision": "US",
-    "wwffName": "Huntsville State Park",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-07-26T16:06:32.491330Z"
   }
 ]
