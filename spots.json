@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.248",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "21:45",
+    "spotter": "KN4AL",
+    "rawText": "21:45 KN4AL in US-1938 (Buckeye Lake State Park) 7.2480 SSB: SSB",
+    "title": "POTA KN4AL in US-1938 (7.2480 SSB)",
+    "comment": "SSB",
+    "source": "pota",
+    "state": [
+      "US_OH"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-1938",
+    "wwffDivision": "US",
+    "wwffName": "Buckeye Lake State Park",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-07-26T21:45:34.925899Z"
+  },
+  {
     "fullCallsign": "W8KNX",
     "callsign": "W8KNX",
     "frequency": "21.075004",
@@ -1513,39 +1546,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-07-26T16:41:32.448282Z"
-  },
-  {
-    "fullCallsign": "KB9VBR",
-    "callsign": "KB9VBR",
-    "frequency": "14.249",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "16:34",
-    "spotter": "KC3YOI",
-    "rawText": "16:34 KB9VBR in US-1473 (Rib Mountain State Park) 14.2490 SSB: 33 in NEPA 73s KC3YOI via POTACAT",
-    "title": "POTA KB9VBR in US-1473 (14.2490 SSB)",
-    "comment": "33 in NEPA 73s KC3YOI via POTACAT",
-    "source": "pota",
-    "state": [
-      "US_WI"
-    ],
-    "spotterState": "US_PA",
-    "wwffRef": "US-1473",
-    "wwffDivision": "US",
-    "wwffName": "Rib Mountain State Park",
-    "qsl": "eqsl",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-07-26T16:34:31.946128Z"
   }
 ]
