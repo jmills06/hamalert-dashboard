@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8MST",
+    "callsign": "K8MST",
+    "frequency": "14.307",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "19:51",
+    "spotter": "WD5EEI",
+    "rawText": "19:51 K8MST in US-2711 (Percha Dam State Park) 14.3070 SSB",
+    "title": "POTA K8MST in US-2711 (14.3070 SSB)",
+    "comment": "",
+    "source": "pota",
+    "state": [
+      "US_NM"
+    ],
+    "spotterState": "US_TX",
+    "wwffRef": "US-2711",
+    "wwffDivision": "US",
+    "wwffName": "Percha Dam State Park",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-07-31T19:52:11.435857Z"
+  },
+  {
     "fullCallsign": "KI2D",
     "callsign": "KI2D",
     "frequency": "14.334",
@@ -1565,28 +1599,5 @@
     "homeEntity": "United States of America",
     "triggerComment": "Everyday Ham",
     "received_at": "2026-07-31T01:38:39.017801Z"
-  },
-  {
-    "fullCallsign": "KB4LS",
-    "callsign": "KB4LS",
-    "frequency": "14.081312",
-    "band": "20m",
-    "mode": "ft4",
-    "modeDetail": "ft4",
-    "time": "01:38",
-    "spotter": "N6GN4",
-    "rawText": "DX de N6GN4: 14081.3 KB4LS FT4 0138Z (WD_3.4.3)",
-    "title": "PSK Reporter spot KB4LS (14.081312 FT4)",
-    "source": "pskreporter",
-    "state": "US_SC",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "triggerComment": "EDH Discord",
-    "received_at": "2026-07-31T01:38:33.207793Z"
   }
 ]
