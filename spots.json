@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.225",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "19:55",
+    "spotter": "KF8CYL",
+    "rawText": "19:55 KN4AL in US-1537 (Seven Lakes State Park) 7.2250 SSB: 59OH",
+    "title": "POTA KN4AL in US-1537 (7.2250 SSB)",
+    "comment": "59OH",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_OH",
+    "wwffRef": "US-1537",
+    "wwffDivision": "US",
+    "wwffName": "Seven Lakes State Park",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-01T19:55:18.020661Z"
+  },
+  {
     "fullCallsign": "N1RWJ",
     "callsign": "N1RWJ",
     "frequency": "21.034",
@@ -1553,39 +1586,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Guests",
     "received_at": "2026-07-31T19:36:10.144264Z"
-  },
-  {
-    "fullCallsign": "KI2D",
-    "callsign": "KI2D",
-    "frequency": "7.243",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "19:26",
-    "spotter": "KI2D",
-    "rawText": "19:26 KI2D in US-2080 (Hudson River Islands State Park) 7.2430 SSB: 2-fer: US-2080 US-8098",
-    "title": "POTA KI2D in US-2080 (7.2430 SSB)",
-    "comment": "2-fer: US-2080 US-8098",
-    "source": "pota",
-    "state": [
-      "US_NY"
-    ],
-    "spotterState": "US_NY",
-    "wwffRef": "US-2080",
-    "wwffDivision": "US",
-    "wwffName": "Hudson River Islands State Park",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "EDH Guests",
-    "received_at": "2026-07-31T19:27:11.256638Z"
   }
 ]
