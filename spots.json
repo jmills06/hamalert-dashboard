@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "14.275",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "17:22",
+    "spotter": "KE4ZUN",
+    "rawText": "17:22 KN4AL in US-9036 (Alder Bottom Wildlife Management Area) 14.2750 SSB",
+    "title": "POTA KN4AL in US-9036 (14.2750 SSB)",
+    "comment": "",
+    "source": "pota",
+    "state": [
+      "US_NY"
+    ],
+    "spotterState": "US_NC",
+    "wwffRef": "US-9036",
+    "wwffDivision": "US",
+    "wwffName": "Alder Bottom Wildlife Management Area",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "5",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-07T17:23:40.049286Z"
+  },
+  {
     "fullCallsign": "K8MST",
     "callsign": "K8MST",
     "frequency": "14.325",
@@ -1607,39 +1640,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-08-04T17:58:22.399900Z"
-  },
-  {
-    "fullCallsign": "K8MST",
-    "callsign": "K8MST",
-    "frequency": "14.320",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "17:24",
-    "spotter": "KG5VFJ",
-    "rawText": "17:24 K8MST in US-8617 (Perea Nature National Recreation Trail) 14.3200 SSB",
-    "title": "POTA K8MST in US-8617 (14.3200 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_NM"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-8617",
-    "wwffDivision": "US",
-    "wwffName": "Perea Nature National Recreation Trail",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-08-04T17:25:20.898393Z"
   }
 ]
