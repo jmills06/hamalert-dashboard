@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "18.136",
+    "band": "17m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "16:50",
+    "spotter": "KN4AL",
+    "rawText": "16:50 KN4AL in US-1387 (Moraine State Park) 18.1360 SSB: SSB",
+    "title": "POTA KN4AL in US-1387 (18.1360 SSB)",
+    "comment": "SSB",
+    "source": "pota",
+    "state": [
+      "US_PA"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-1387",
+    "wwffDivision": "US",
+    "wwffName": "Moraine State Park",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-09T16:50:55.540546Z"
+  },
+  {
     "fullCallsign": "N1RWJ",
     "callsign": "N1RWJ",
     "frequency": "14.059",
@@ -1524,39 +1557,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-08-07T19:09:40.246053Z"
-  },
-  {
-    "fullCallsign": "K8JKU",
-    "callsign": "K8JKU",
-    "frequency": "14.293",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "19:05",
-    "spotter": "K8JKU",
-    "rawText": "19:05 K8JKU in US-6730 (Maple River State Game Land) 14.2930 SSB: QSY new park",
-    "title": "POTA K8JKU in US-6730 (14.2930 SSB)",
-    "comment": "QSY new park",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-6730",
-    "wwffDivision": "US",
-    "wwffName": "Maple River State Game Land",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "Everyday Ham",
-    "received_at": "2026-08-07T19:05:39.757157Z"
   }
 ]
