@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "14.278",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "19:29",
+    "spotter": "KN4AL",
+    "rawText": "19:29 KN4AL in US-8913 (PA 216 State Game Land) 14.2780 SSB: SSB",
+    "title": "POTA KN4AL in US-8913 (14.2780 SSB)",
+    "comment": "SSB",
+    "source": "pota",
+    "state": [
+      "US_PA"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-8913",
+    "wwffDivision": "US",
+    "wwffName": "PA 216 State Game Land",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-09T19:29:54.221687Z"
+  },
+  {
     "fullCallsign": "N7KOM",
     "callsign": "N7KOM",
     "frequency": "144.200",
@@ -1503,39 +1536,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-08-08T00:11:42.171021Z"
-  },
-  {
-    "fullCallsign": "K8MRD",
-    "callsign": "K8MRD",
-    "frequency": "14.316",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "23:57",
-    "spotter": "K8MRD",
-    "rawText": "23:57 K8MRD in US-2994 (Caddo Lake State Park) 14.3160 SSB: Hi",
-    "title": "POTA K8MRD in US-2994 (14.3160 SSB)",
-    "comment": "Hi",
-    "source": "pota",
-    "state": [
-      "US_TX"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-2994",
-    "wwffDivision": "US",
-    "wwffName": "Caddo Lake State Park",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-08-07T23:58:43.679543Z"
   }
 ]
