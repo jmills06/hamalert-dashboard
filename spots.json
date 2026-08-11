@@ -1,5 +1,29 @@
 [
   {
+    "fullCallsign": "K8JKU",
+    "callsign": "K8JKU",
+    "frequency": "21.074904",
+    "band": "15m",
+    "mode": "ft8",
+    "modeDetail": "ft8",
+    "time": "00:34",
+    "spotter": "EA8-DF4UE",
+    "snr": -16,
+    "rawText": "DX de EA8-DF4UE: 21074.9 K8JKU FT8 -16 dB 0034Z (UberSDR 0.1.58)",
+    "title": "PSK Reporter spot K8JKU (21.074904 FT8)",
+    "source": "pskreporter",
+    "state": "US_MI",
+    "qsl": "eqsl,lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "triggerComment": "Everyday Ham",
+    "received_at": "2026-08-11T00:34:27.003264Z"
+  },
+  {
     "fullCallsign": "N8JRD",
     "callsign": "N8JRD",
     "frequency": "14.07581",
@@ -1481,38 +1505,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-08-08T20:47:48.043276Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "14.246",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "20:33",
-    "spotter": "KN4AL",
-    "rawText": "20:33 KN4AL in US-8816 (PA 117 State Game Land) 14.2460 SSB: SSB",
-    "title": "POTA KN4AL in US-8816 (14.2460 SSB)",
-    "comment": "SSB",
-    "source": "pota",
-    "state": [
-      "US_PA"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-8816",
-    "wwffDivision": "US",
-    "wwffName": "PA 117 State Game Land",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-08-08T20:34:49.643826Z"
   }
 ]
