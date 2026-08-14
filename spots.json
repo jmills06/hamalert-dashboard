@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.195",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "18:48",
+    "spotter": "KN4AL",
+    "rawText": "18:48 KN4AL in US-13167 (Grand Island National Recreation Area) 7.1950 SSB: SSB 2-fer with US-4487",
+    "title": "POTA KN4AL in US-13167 (7.1950 SSB)",
+    "comment": "SSB 2-fer with US-4487",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-13167",
+    "wwffDivision": "US",
+    "wwffName": "Grand Island National Recreation Area",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-14T18:49:48.017157Z"
+  },
+  {
     "fullCallsign": "KB9VBR",
     "callsign": "KB9VBR",
     "frequency": "14.266",
@@ -1523,39 +1556,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Guests",
     "received_at": "2026-08-11T20:43:14.115056Z"
-  },
-  {
-    "fullCallsign": "K8MRD",
-    "callsign": "K8MRD",
-    "frequency": "14.324",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "20:36",
-    "spotter": "K8MRD",
-    "rawText": "20:36 K8MRD in US-3019 (Huntsville State Park) 14.3240 SSB: 3-fer: US-3019 US-4417 US-10509",
-    "title": "POTA K8MRD in US-3019 (14.3240 SSB)",
-    "comment": "3-fer: US-3019 US-4417 US-10509",
-    "source": "pota",
-    "state": [
-      "US_TX"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-3019",
-    "wwffDivision": "US",
-    "wwffName": "Huntsville State Park",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-08-11T20:36:15.343161Z"
   }
 ]
