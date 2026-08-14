@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.195",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "19:00",
+    "spotter": "WG9I",
+    "rawText": "19:00 KN4AL in US-13167 (Grand Island National Recreation Area) 7.1950 SSB: 55 WI",
+    "title": "POTA KN4AL in US-13167 (7.1950 SSB)",
+    "comment": "55 WI",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_WI",
+    "wwffRef": "US-13167",
+    "wwffDivision": "US",
+    "wwffName": "Grand Island National Recreation Area",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-14T19:00:47.237317Z"
+  },
+  {
     "fullCallsign": "KB9VBR",
     "callsign": "KB9VBR",
     "frequency": "14.266",
@@ -1522,39 +1555,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Guests",
     "received_at": "2026-08-11T21:01:13.096956Z"
-  },
-  {
-    "fullCallsign": "KI2D",
-    "callsign": "KI2D",
-    "frequency": "14.319",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "20:50",
-    "spotter": "KI2D",
-    "rawText": "20:50 KI2D in US-2064 (Goose Pond Mountain State Park) 14.3190 SSB: QSY",
-    "title": "POTA KI2D in US-2064 (14.3190 SSB)",
-    "comment": "QSY",
-    "source": "pota",
-    "state": [
-      "US_NY"
-    ],
-    "spotterState": "US_NY",
-    "wwffRef": "US-2064",
-    "wwffDivision": "US",
-    "wwffName": "Goose Pond Mountain State Park",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "EDH Guests",
-    "received_at": "2026-08-11T20:50:13.178115Z"
   }
 ]
