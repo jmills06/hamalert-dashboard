@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.268",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "16:33",
+    "spotter": "KN4AL",
+    "rawText": "16:33 KN4AL in US-12798 (Sturgeon (Hiawatha) National Wild and Scenic River) 7.2680 SSB: Qrt on to next park",
+    "title": "POTA KN4AL in US-12798 (7.2680 SSB)",
+    "comment": "Qrt on to next park",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-12798",
+    "wwffDivision": "US",
+    "wwffName": "Sturgeon (Hiawatha) National Wild and Scenic River",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-15T16:33:55.921642Z"
+  },
+  {
     "fullCallsign": "N8LEK",
     "callsign": "N8LEK",
     "frequency": "14.325",
@@ -1550,38 +1583,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-08-14T19:16:26.920886Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "7.195",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "19:14",
-    "spotter": "KN4AL",
-    "rawText": "19:14 KN4AL in US-13167 (Grand Island National Recreation Area) 7.1950 SSB: N2BTD I'm here",
-    "title": "POTA KN4AL in US-13167 (7.1950 SSB)",
-    "comment": "N2BTD I'm here",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-13167",
-    "wwffDivision": "US",
-    "wwffName": "Grand Island National Recreation Area",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-08-14T19:15:47.402856Z"
   }
 ]
