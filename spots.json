@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.191",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "15:50",
+    "spotter": "KN4AL",
+    "rawText": "15:50 KN4AL in US-12798 (Sturgeon (Hiawatha) National Wild and Scenic River) 7.1910 SSB: Qsy",
+    "title": "POTA KN4AL in US-12798 (7.1910 SSB)",
+    "comment": "Qsy",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-12798",
+    "wwffDivision": "US",
+    "wwffName": "Sturgeon (Hiawatha) National Wild and Scenic River",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-15T15:51:55.034042Z"
+  },
+  {
     "fullCallsign": "N8LEK",
     "callsign": "N8LEK",
     "frequency": "7.240",
@@ -1550,39 +1583,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-08-14T18:49:48.017157Z"
-  },
-  {
-    "fullCallsign": "KB9VBR",
-    "callsign": "KB9VBR",
-    "frequency": "14.266",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "18:38",
-    "spotter": "K4NCC",
-    "rawText": "18:38 KB9VBR in US-12029 (Alta State Fish and Wildlife Area) 14.2660 SSB: 33 GA",
-    "title": "POTA KB9VBR in US-12029 (14.2660 SSB)",
-    "comment": "33 GA",
-    "source": "pota",
-    "state": [
-      "US_WI"
-    ],
-    "spotterState": "US_GA",
-    "wwffRef": "US-12029",
-    "wwffDivision": "US",
-    "wwffName": "Alta State Fish and Wildlife Area",
-    "qsl": "eqsl",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-08-14T18:38:48.128369Z"
   }
 ]
