@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.180",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "15:47",
+    "spotter": "KN4AL",
+    "rawText": "15:47 KN4AL in US-12798 (Sturgeon (Hiawatha) National Wild and Scenic River) 7.1800 SSB: SSB 2-fer with US-4487",
+    "title": "POTA KN4AL in US-12798 (7.1800 SSB)",
+    "comment": "SSB 2-fer with US-4487",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-12798",
+    "wwffDivision": "US",
+    "wwffName": "Sturgeon (Hiawatha) National Wild and Scenic River",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-15T15:47:55.632794Z"
+  },
+  {
     "fullCallsign": "N8JRD",
     "callsign": "N8JRD",
     "frequency": "14.226703",
@@ -1551,39 +1584,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-08-14T18:24:47.616885Z"
-  },
-  {
-    "fullCallsign": "N8LEK",
-    "callsign": "N8LEK",
-    "frequency": "14.327",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "18:17",
-    "spotter": "N8LEK",
-    "rawText": "18:17 N8LEK in US-6773 (Sage Lakes Flooding Wildlife Management Area) 14.3270: CQ",
-    "title": "POTA N8LEK in US-6773 (14.3270)",
-    "comment": "CQ",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-6773",
-    "wwffDivision": "US",
-    "wwffName": "Sage Lakes Flooding Wildlife Management Area",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-08-14T18:18:47.123304Z"
   }
 ]
