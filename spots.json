@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "N8JRD",
+    "callsign": "N8JRD",
+    "frequency": "7.243",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "01:44",
+    "spotter": "N8JRD",
+    "rawText": "01:44 N8JRD in US-1976 (Maumee Bay State Park) 7.2430 SSB",
+    "title": "POTA N8JRD in US-1976 (7.2430 SSB)",
+    "comment": "",
+    "source": "pota",
+    "state": [
+      "US_OH"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-1976",
+    "wwffDivision": "US",
+    "wwffName": "Maumee Bay State Park",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "Everyday Ham",
+    "received_at": "2026-08-22T01:44:42.051836Z"
+  },
+  {
     "fullCallsign": "W8KNX",
     "callsign": "W8KNX",
     "frequency": "7.243",
@@ -1488,38 +1522,5 @@
     "spotterContinent": "NA",
     "triggerComment": "Everyday Ham",
     "received_at": "2026-08-17T01:43:20.638123Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "7.255",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "21:32",
-    "spotter": "KN4AL",
-    "rawText": "21:32 KN4AL in US-12789 (Carp National Wild and Scenic River) 7.2550 SSB: Qrt 73",
-    "title": "POTA KN4AL in US-12789 (7.2550 SSB)",
-    "comment": "Qrt 73",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-12789",
-    "wwffDivision": "US",
-    "wwffName": "Carp National Wild and Scenic River",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-08-16T21:33:03.137567Z"
   }
 ]
