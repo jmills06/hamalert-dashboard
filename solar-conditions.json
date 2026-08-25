@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T03:39:51.317039Z",
+  "updated_at": "2026-08-25T06:30:02.592379Z",
   "solar": {
     "sunspots": "84",
     "solarflux": "143",
@@ -7,7 +7,7 @@
     "kindex": " 1",
     "solarwind": "357.2",
     "signalnoise": "S0-S1",
-    "xray": "C2.1",
+    "xray": "C1.5",
     "geomagfield": "VR QUIET",
     "electonflux": "NoRpt",
     "protonflux": "NoRpt"
