@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8ERS",
+    "callsign": "K8ERS",
+    "frequency": "14.227",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "16:11",
+    "spotter": "K8ERS",
+    "rawText": "16:11 K8ERS in US-13565 (Flint State Park) 14.2270 SSB",
+    "title": "POTA K8ERS in US-13565 (14.2270 SSB)",
+    "comment": "",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-13565",
+    "wwffDivision": "US",
+    "wwffName": "Flint State Park",
+    "qsl": "eqsl,lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-29T16:12:11.698897Z"
+  },
+  {
     "fullCallsign": "N8LEK",
     "callsign": "N8LEK",
     "frequency": "14.280",
@@ -1510,38 +1544,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-08-27T00:37:52.317162Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "7.239",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "00:26",
-    "spotter": "N9VVV",
-    "rawText": "00:26 KN4AL in US-3323 (Pontiac Lake State Recreation Area) 7.2390 SSB: 5-9 in KY thank you",
-    "title": "POTA KN4AL in US-3323 (7.2390 SSB)",
-    "comment": "5-9 in KY thank you",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_IL",
-    "wwffRef": "US-3323",
-    "wwffDivision": "US",
-    "wwffName": "Pontiac Lake State Recreation Area",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-08-27T00:26:52.370546Z"
   }
 ]
