@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8ERS",
+    "callsign": "K8ERS",
+    "frequency": "14.215",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "17:03",
+    "spotter": "K8ERS",
+    "rawText": "17:03 K8ERS in US-13565 (Flint State Park) 14.2150 SSB: QSY",
+    "title": "POTA K8ERS in US-13565 (14.2150 SSB)",
+    "comment": "QSY",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-13565",
+    "wwffDivision": "US",
+    "wwffName": "Flint State Park",
+    "qsl": "eqsl,lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-08-29T17:04:10.014069Z"
+  },
+  {
     "fullCallsign": "N8LEK",
     "callsign": "N8LEK",
     "frequency": "7.270",
@@ -1545,38 +1579,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Discord",
     "received_at": "2026-08-28T02:04:56.062791Z"
-  },
-  {
-    "fullCallsign": "N1RWJ",
-    "callsign": "N1RWJ",
-    "frequency": "21.041",
-    "band": "15m",
-    "mode": "cw",
-    "modeDetail": "cw",
-    "time": "02:00",
-    "spotter": "TI7W",
-    "rawText": "02:00 N1RWJ in US-7889 (Presidio of SF National Historic Site) 21.0410 CW: RBN 3 dB 21 WPM via TI7W-#",
-    "title": "POTA N1RWJ in US-7889 (21.0410 CW)",
-    "comment": "RBN 3 dB 21 WPM via TI7W-#",
-    "source": "pota",
-    "state": [
-      "US_CA"
-    ],
-    "wwffRef": "US-7889",
-    "wwffDivision": "US",
-    "wwffName": "Presidio of SF National Historic Site",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 308,
-    "spotterEntity": "Costa Rica",
-    "spotterCq": "7",
-    "spotterContinent": "NA",
-    "triggerComment": "EDH Discord",
-    "received_at": "2026-08-28T02:00:58.807513Z"
   }
 ]
