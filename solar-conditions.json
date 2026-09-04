@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-03T22:53:43.990970Z",
+  "updated_at": "2026-09-04T02:07:46.678569Z",
   "solar": {
-    "sunspots": "36",
+    "sunspots": "37",
     "solarflux": "102",
     "aindex": " 6",
     "kindex": " 1",
     "solarwind": "412.8",
     "signalnoise": "S0-S1",
-    "xray": "C1.6",
+    "xray": "C1.0",
     "geomagfield": "VR QUIET",
     "electonflux": "3090",
     "protonflux": "29"
