@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.237",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "18:18",
+    "spotter": "KN4AL",
+    "rawText": "18:18 KN4AL in US-13570 (Gladwin Field Trial Wildlife Management Area) 7.2370: 3-fer with US-6683, US-4774",
+    "title": "POTA KN4AL in US-13570 (7.2370)",
+    "comment": "3-fer with US-6683, US-4774",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-13570",
+    "wwffDivision": "US",
+    "wwffName": "Gladwin Field Trial Wildlife Management Area",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-09-05T18:18:58.484570Z"
+  },
+  {
     "fullCallsign": "K8MRD",
     "callsign": "K8MRD",
     "frequency": "14.308",
@@ -1533,39 +1566,5 @@
     "spotterContinent": "NA",
     "triggerComment": "Everyday Ham",
     "received_at": "2026-08-30T02:14:27.035153Z"
-  },
-  {
-    "fullCallsign": "N8LEK",
-    "callsign": "N8LEK",
-    "frequency": "7.270",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "02:08",
-    "spotter": "N8LEK",
-    "rawText": "02:08 N8LEK in US-1507 (Hoffmaster State Park) 7.2700 SSB",
-    "title": "POTA N8LEK in US-1507 (7.2700 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-1507",
-    "wwffDivision": "US",
-    "wwffName": "Hoffmaster State Park",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-08-30T02:09:13.690870Z"
   }
 ]
