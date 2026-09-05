@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.240",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "23:33",
+    "spotter": "KN4AL",
+    "rawText": "23:33 KN4AL in US-4778 (Mackinaw State Forest) 7.2400 SSB: Qrt 73",
+    "title": "POTA KN4AL in US-4778 (7.2400 SSB)",
+    "comment": "Qrt 73",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-4778",
+    "wwffDivision": "US",
+    "wwffName": "Mackinaw State Forest",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-09-05T23:33:56.932149Z"
+  },
+  {
     "fullCallsign": "W8MSC",
     "callsign": "W8MSC",
     "frequency": "7.075725",
@@ -1534,39 +1567,5 @@
     "spotterContinent": "NA",
     "triggerComment": "Everyday Ham",
     "received_at": "2026-08-30T20:20:16.349330Z"
-  },
-  {
-    "fullCallsign": "K8JKU",
-    "callsign": "K8JKU",
-    "frequency": "7.230",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "20:07",
-    "spotter": "K8JKU",
-    "rawText": "20:07 K8JKU in US-3313 (Holly State Recreation Area) 7.2300 SSB: CQ",
-    "title": "POTA K8JKU in US-3313 (7.2300 SSB)",
-    "comment": "CQ",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-3313",
-    "wwffDivision": "US",
-    "wwffName": "Holly State Recreation Area",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "Everyday Ham",
-    "received_at": "2026-08-30T20:08:16.531802Z"
   }
 ]
