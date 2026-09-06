@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.272",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "00:34",
+    "spotter": "AC0CU",
+    "rawText": "00:34 KN4AL in US-6720 (Lee Grande Ranch State Game Land) 7.2720 SSB",
+    "title": "POTA KN4AL in US-6720 (7.2720 SSB)",
+    "comment": "",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MO",
+    "wwffRef": "US-6720",
+    "wwffDivision": "US",
+    "wwffName": "Lee Grande Ranch State Game Land",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-09-06T00:34:57.080881Z"
+  },
+  {
     "fullCallsign": "W8MSC",
     "callsign": "W8MSC",
     "frequency": "7.074806",
@@ -1516,39 +1549,5 @@
     "spotterContinent": "NA",
     "triggerComment": "Everyday Ham",
     "received_at": "2026-09-02T20:45:37.290530Z"
-  },
-  {
-    "fullCallsign": "K8JKU",
-    "callsign": "K8JKU",
-    "frequency": "14.325",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "20:34",
-    "spotter": "KC7UXM",
-    "rawText": "20:34 K8JKU in US-1518 (Maybury State Park) 14.3250 SSB",
-    "title": "POTA K8JKU in US-1518 (14.3250 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-1518",
-    "wwffDivision": "US",
-    "wwffName": "Maybury State Park",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "Everyday Ham",
-    "received_at": "2026-09-02T20:34:38.353827Z"
   }
 ]
