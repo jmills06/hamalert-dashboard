@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8MST",
+    "callsign": "K8MST",
+    "frequency": "14.308",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "22:08",
+    "spotter": "K8MST",
+    "rawText": "22:08 K8MST in US-0734 (George Rogers Clark National Historical Park) 14.3080 SSB",
+    "title": "POTA K8MST in US-0734 (14.3080 SSB)",
+    "comment": "",
+    "source": "pota",
+    "state": [
+      "US_IN"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-0734",
+    "wwffDivision": "US",
+    "wwffName": "George Rogers Clark National Historical Park",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-09-07T22:09:06.887886Z"
+  },
+  {
     "fullCallsign": "N1RWJ",
     "callsign": "N1RWJ",
     "frequency": "14.0589",
@@ -1554,38 +1588,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-09-06T02:00:57.104934Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "7.272",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "01:57",
-    "spotter": "KN4AL",
-    "rawText": "01:57 KN4AL in US-6797 (Tomahawk Creek Flooding Wildlife Management Area) 7.2720 SSB: SSB 2-fer with US-4778",
-    "title": "POTA KN4AL in US-6797 (7.2720 SSB)",
-    "comment": "SSB 2-fer with US-4778",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-6797",
-    "wwffDivision": "US",
-    "wwffName": "Tomahawk Creek Flooding Wildlife Management Area",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-09-06T01:58:58.370810Z"
   }
 ]
