@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8MST",
+    "callsign": "K8MST",
+    "frequency": "14.338",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "21:57",
+    "spotter": "K8MST",
+    "rawText": "21:57 K8MST in US-0734 (George Rogers Clark National Historical Park) 14.3380 SSB: QRV nee park",
+    "title": "POTA K8MST in US-0734 (14.3380 SSB)",
+    "comment": "QRV nee park",
+    "source": "pota",
+    "state": [
+      "US_IN"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-0734",
+    "wwffDivision": "US",
+    "wwffName": "George Rogers Clark National Historical Park",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-09-07T21:58:06.920605Z"
+  },
+  {
     "fullCallsign": "N1RWJ",
     "callsign": "N1RWJ",
     "frequency": "14.059",
@@ -1557,38 +1591,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-09-06T01:00:58.615775Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "7.272",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "00:44",
-    "spotter": "KO4WFR",
-    "rawText": "00:44 KN4AL in US-6720 (Lee Grande Ranch State Game Land) 7.2720 SSB",
-    "title": "POTA KN4AL in US-6720 (7.2720 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_KY",
-    "wwffRef": "US-6720",
-    "wwffDivision": "US",
-    "wwffName": "Lee Grande Ranch State Game Land",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-09-06T00:44:56.931443Z"
   }
 ]
