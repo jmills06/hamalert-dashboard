@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "N8JRD",
+    "callsign": "N8JRD",
+    "frequency": "14.285",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "17:04",
+    "spotter": "NU8M",
+    "rawText": "17:04 N8JRD in US-3315 (Island Lake State Recreation Area) 14.2850 SSB: SSB",
+    "title": "POTA N8JRD in US-3315 (14.2850 SSB)",
+    "comment": "SSB",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-3315",
+    "wwffDivision": "US",
+    "wwffName": "Island Lake State Recreation Area",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "Everyday Ham",
+    "received_at": "2026-09-07T17:05:07.205574Z"
+  },
+  {
     "fullCallsign": "N8LEK",
     "callsign": "N8LEK",
     "frequency": "28.400",
@@ -1539,38 +1573,5 @@
     "spotterContinent": "NA",
     "triggerComment": "",
     "received_at": "2026-09-06T00:21:05.543769Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "7.272",
-    "band": "40m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "00:12",
-    "spotter": "KN4AL",
-    "rawText": "00:12 KN4AL in US-6720 (Lee Grande Ranch State Game Land) 7.2720 SSB: SSB 2-fer with US-4778",
-    "title": "POTA KN4AL in US-6720 (7.2720 SSB)",
-    "comment": "SSB 2-fer with US-4778",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-6720",
-    "wwffDivision": "US",
-    "wwffName": "Lee Grande Ranch State Game Land",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-09-06T00:12:56.929219Z"
   }
 ]
