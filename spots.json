@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KC5HWB",
+    "callsign": "KC5HWB",
+    "frequency": "14.322",
+    "band": "20m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "15:46",
+    "spotter": "KC5HWB",
+    "rawText": "15:46 KC5HWB in US-3013 (Galveston Island State Park) 14.3220 SSB: Pota",
+    "title": "POTA KC5HWB in US-3013 (14.3220 SSB)",
+    "comment": "Pota",
+    "source": "pota",
+    "state": [
+      "US_TX"
+    ],
+    "spotterState": "US_TX",
+    "wwffRef": "US-3013",
+    "wwffDivision": "US",
+    "wwffName": "Galveston Island State Park",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "YouTube",
+    "received_at": "2026-09-10T15:47:21.283981Z"
+  },
+  {
     "fullCallsign": "KB9VBR",
     "callsign": "KB9VBR",
     "frequency": "7.220",
@@ -1550,39 +1583,5 @@
     "spotterContinent": "NA",
     "triggerComment": "YouTube",
     "received_at": "2026-09-06T22:07:02.268632Z"
-  },
-  {
-    "fullCallsign": "K8MRD",
-    "callsign": "K8MRD",
-    "frequency": "14.322",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "21:55",
-    "spotter": "K8MRD",
-    "rawText": "21:55 K8MRD in US-3500 (Fanthorp Inn State Historic Site) 14.3220 SSB",
-    "title": "POTA K8MRD in US-3500 (14.3220 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_TX"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-3500",
-    "wwffDivision": "US",
-    "wwffName": "Fanthorp Inn State Historic Site",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-09-06T21:56:03.570951Z"
   }
 ]
