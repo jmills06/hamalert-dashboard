@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.242",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "16:33",
+    "spotter": "KR4OKX",
+    "rawText": "16:33 KN4AL in US-1334 (Black Moshannon State Park) 7.2420: 57 in NC",
+    "title": "POTA KN4AL in US-1334 (7.2420)",
+    "comment": "57 in NC",
+    "source": "pota",
+    "state": [
+      "US_PA"
+    ],
+    "spotterState": "US_NC",
+    "wwffRef": "US-1334",
+    "wwffDivision": "US",
+    "wwffName": "Black Moshannon State Park",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "5",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-09-11T16:34:27.133303Z"
+  },
+  {
     "fullCallsign": "N1RWJ",
     "callsign": "N1RWJ",
     "frequency": "21.0752",
@@ -1566,39 +1599,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-09-07T21:29:06.746084Z"
-  },
-  {
-    "fullCallsign": "K8MST",
-    "callsign": "K8MST",
-    "frequency": "14.319",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "21:27",
-    "spotter": "K8MST",
-    "rawText": "21:27 K8MST in US-6978 (Vincennes State Historic Site) 14.3190 SSB",
-    "title": "POTA K8MST in US-6978 (14.3190 SSB)",
-    "comment": "",
-    "source": "pota",
-    "state": [
-      "US_IN"
-    ],
-    "spotterState": "US_MI",
-    "wwffRef": "US-6978",
-    "wwffDivision": "US",
-    "wwffName": "Vincennes State Historic Site",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-09-07T21:28:06.685620Z"
   }
 ]
