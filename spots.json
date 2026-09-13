@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.216",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "18:24",
+    "spotter": "KN4VA",
+    "rawText": "18:24 KN4AL in US-1399 (Poe Paddy State Park) 7.2160: 57 VA",
+    "title": "POTA KN4AL in US-1399 (7.2160)",
+    "comment": "57 VA",
+    "source": "pota",
+    "state": [
+      "US_PA"
+    ],
+    "spotterState": "US_VA",
+    "wwffRef": "US-1399",
+    "wwffDivision": "US",
+    "wwffName": "Poe Paddy State Park",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "5",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-09-13T18:24:39.950371Z"
+  },
+  {
     "fullCallsign": "N1RWJ",
     "callsign": "N1RWJ",
     "frequency": "7.057",
@@ -1502,39 +1535,5 @@
     "spotterContinent": "NA",
     "triggerComment": "EDH Discord",
     "received_at": "2026-09-12T14:35:31.902187Z"
-  },
-  {
-    "fullCallsign": "N1RWJ",
-    "callsign": "N1RWJ",
-    "frequency": "14.069",
-    "band": "20m",
-    "mode": "cw",
-    "modeDetail": "cw",
-    "time": "14:20",
-    "spotter": "KK7D",
-    "rawText": "14:20 N1RWJ in US-7714 (Buck Hill Wildlife Management Area) 14.0690 CW: FB QSO",
-    "title": "POTA N1RWJ in US-7714 (14.0690 CW)",
-    "comment": "FB QSO",
-    "source": "pota",
-    "state": [
-      "US_RI"
-    ],
-    "spotterState": "US_OR",
-    "wwffRef": "US-7714",
-    "wwffDivision": "US",
-    "wwffName": "Buck Hill Wildlife Management Area",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "3",
-    "spotterContinent": "NA",
-    "triggerComment": "EDH Discord",
-    "received_at": "2026-09-12T14:21:31.737628Z"
   }
 ]
