@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8MST",
+    "callsign": "K8MST",
+    "frequency": "7.222",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "19:13",
+    "spotter": "K8MST",
+    "rawText": "19:13 K8MST in US-3384 (Brighton State Recreation Area) 7.2220 SSB",
+    "title": "POTA K8MST in US-3384 (7.2220 SSB)",
+    "comment": "",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-3384",
+    "wwffDivision": "US",
+    "wwffName": "Brighton State Recreation Area",
+    "qsl": "lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-09-13T19:13:38.484359Z"
+  },
+  {
     "fullCallsign": "W8EDH",
     "callsign": "W8EDH",
     "frequency": "7.074898",
@@ -1496,38 +1530,5 @@
     "spotterContinent": "EU",
     "triggerComment": "EDH Discord",
     "received_at": "2026-09-12T19:04:09.437780Z"
-  },
-  {
-    "fullCallsign": "N1RWJ",
-    "callsign": "N1RWJ",
-    "frequency": "14.0545",
-    "band": "20m",
-    "mode": "cw",
-    "modeDetail": "cw",
-    "time": "18:55",
-    "spotter": "RK3TD",
-    "rawText": "18:55 N1RWJ in US-7716 (Carolina Wildlife Management Area) 14.0545 CW: RBN 15 dB 21 WPM via RK3TD-#",
-    "title": "POTA N1RWJ in US-7716 (14.0545 CW)",
-    "comment": "RBN 15 dB 21 WPM via RK3TD-#",
-    "source": "pota",
-    "state": [
-      "US_RI"
-    ],
-    "wwffRef": "US-7716",
-    "wwffDivision": "US",
-    "wwffName": "Carolina Wildlife Management Area",
-    "qsl": "eqsl,lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 54,
-    "spotterEntity": "European Russia",
-    "spotterCq": "16",
-    "spotterContinent": "EU",
-    "triggerComment": "EDH Discord",
-    "received_at": "2026-09-12T18:55:31.961498Z"
   }
 ]
