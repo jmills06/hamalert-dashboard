@@ -1,5 +1,38 @@
 [
   {
+    "fullCallsign": "KN4AL",
+    "callsign": "KN4AL",
+    "frequency": "7.220",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "18:03",
+    "spotter": "KN4AL",
+    "rawText": "18:03 KN4AL in US-13169 (Lake Ottawa National Recreation Area) 7.2200 SSB: SSB 2-fer with US-4489",
+    "title": "POTA KN4AL in US-13169 (7.2200 SSB)",
+    "comment": "SSB 2-fer with US-4489",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-13169",
+    "wwffDivision": "US",
+    "wwffName": "Lake Ottawa National Recreation Area",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "SLAARC",
+    "received_at": "2026-09-19T18:03:12.765922Z"
+  },
+  {
     "fullCallsign": "N8LEK",
     "callsign": "N8LEK",
     "frequency": "7.270",
@@ -1529,39 +1562,5 @@
     "spotterContinent": "NA",
     "triggerComment": "Everyday Ham",
     "received_at": "2026-09-14T22:35:01.246957Z"
-  },
-  {
-    "fullCallsign": "K8MRD",
-    "callsign": "K8MRD",
-    "frequency": "14.338",
-    "band": "20m",
-    "mode": "usb",
-    "modeDetail": "usb",
-    "time": "22:12",
-    "spotter": "K8MRD",
-    "rawText": "22:12 K8MRD in US-3019 (Huntsville State Park) 14.3380 USB: qrt 3-fer: US-3019 US-4417 US-10509",
-    "title": "POTA K8MRD in US-3019 (14.3380 USB)",
-    "comment": "qrt 3-fer: US-3019 US-4417 US-10509",
-    "source": "pota",
-    "state": [
-      "US_TX"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-3019",
-    "wwffDivision": "US",
-    "wwffName": "Huntsville State Park",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "YouTube",
-    "received_at": "2026-09-14T22:12:52.823109Z"
   }
 ]
