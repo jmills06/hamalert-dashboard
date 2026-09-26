@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "K8JKU",
+    "callsign": "K8JKU",
+    "frequency": "7.265",
+    "band": "40m",
+    "mode": "ssb",
+    "modeDetail": "ssb",
+    "time": "13:07",
+    "spotter": "K8JKU",
+    "rawText": "13:07 K8JKU in US-3384 (Brighton State Recreation Area) 7.2650 SSB: cq",
+    "title": "POTA K8JKU in US-3384 (7.2650 SSB)",
+    "comment": "cq",
+    "source": "pota",
+    "state": [
+      "US_MI"
+    ],
+    "spotterState": "US_MI",
+    "wwffRef": "US-3384",
+    "wwffDivision": "US",
+    "wwffName": "Brighton State Recreation Area",
+    "qsl": "eqsl,lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 291,
+    "spotterEntity": "United States of America",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "Everyday Ham",
+    "received_at": "2026-09-26T13:08:06.072828Z"
+  },
+  {
     "fullCallsign": "W8MSC",
     "callsign": "W8MSC",
     "frequency": "14.075372",
@@ -1464,38 +1498,5 @@
     "spotterContinent": "NA",
     "triggerComment": "SLAARC",
     "received_at": "2026-09-20T19:28:22.253266Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "14.347",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "19:11",
-    "spotter": "W5ASS",
-    "rawText": "19:11 KN4AL in US-13166 (Black River National Recreation Area) 14.3470 SSB: 57 in TexAss",
-    "title": "POTA KN4AL in US-13166 (14.3470 SSB)",
-    "comment": "57 in TexAss",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_TX",
-    "wwffRef": "US-13166",
-    "wwffDivision": "US",
-    "wwffName": "Black River National Recreation Area",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "4",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-09-20T19:12:19.856598Z"
   }
 ]
