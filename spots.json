@@ -1,5 +1,39 @@
 [
   {
+    "fullCallsign": "W8MSC",
+    "callsign": "W8MSC",
+    "frequency": "14.075",
+    "band": "20m",
+    "mode": "ft8",
+    "modeDetail": "ft8",
+    "time": "13:15",
+    "spotter": "VE6BR",
+    "rawText": "13:15 W8MSC in US-8102 (Catharine Creek Wildlife Management Area) 14.0750 FT8: FT8  Sent: -18  Rcvd: -04",
+    "title": "POTA W8MSC in US-8102 (14.0750 FT8)",
+    "comment": "FT8  Sent: -18  Rcvd: -04",
+    "source": "pota",
+    "state": [
+      "US_NY"
+    ],
+    "spotterState": "CA_AB",
+    "wwffRef": "US-8102",
+    "wwffDivision": "US",
+    "wwffName": "Catharine Creek Wildlife Management Area",
+    "qsl": "eqsl,lotw",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "4",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "spotterDxcc": 1,
+    "spotterEntity": "Canada",
+    "spotterCq": "4",
+    "spotterContinent": "NA",
+    "triggerComment": "",
+    "received_at": "2026-09-26T13:16:05.749333Z"
+  },
+  {
     "fullCallsign": "K8JKU",
     "callsign": "K8JKU",
     "frequency": "7.265",
@@ -1465,38 +1499,5 @@
     "spotterContinent": "NA",
     "triggerComment": "",
     "received_at": "2026-09-20T21:29:45.570223Z"
-  },
-  {
-    "fullCallsign": "KN4AL",
-    "callsign": "KN4AL",
-    "frequency": "14.347",
-    "band": "20m",
-    "mode": "ssb",
-    "modeDetail": "ssb",
-    "time": "19:27",
-    "spotter": "K1TDM",
-    "rawText": "19:27 KN4AL in US-13166 (Black River National Recreation Area) 14.3470 SSB: [PW] US-13166, Black River National Recreation Area",
-    "title": "POTA KN4AL in US-13166 (14.3470 SSB)",
-    "comment": "[PW] US-13166, Black River National Recreation Area",
-    "source": "pota",
-    "state": [
-      "US_MI"
-    ],
-    "spotterState": "US_NC",
-    "wwffRef": "US-13166",
-    "wwffDivision": "US",
-    "wwffName": "Black River National Recreation Area",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "4",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "spotterDxcc": 291,
-    "spotterEntity": "United States of America",
-    "spotterCq": "5",
-    "spotterContinent": "NA",
-    "triggerComment": "SLAARC",
-    "received_at": "2026-09-20T19:28:22.253266Z"
   }
 ]
