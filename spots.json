@@ -1,5 +1,28 @@
 [
   {
+    "fullCallsign": "KI6NAZ",
+    "callsign": "KI6NAZ",
+    "frequency": "7.074756",
+    "band": "40m",
+    "mode": "ft8",
+    "modeDetail": "ft8",
+    "time": "01:46",
+    "spotter": "KPH",
+    "rawText": "DX de KPH: 7074.8 KI6NAZ FT8 0146Z (N1DQ-KA9Q-Radio/1.3)",
+    "title": "PSK Reporter spot KI6NAZ (7.074756 FT8)",
+    "source": "pskreporter",
+    "state": "US_CA",
+    "qsl": "eqsl",
+    "dxcc": 291,
+    "entity": "United States of America",
+    "cq": "3",
+    "continent": "NA",
+    "homeDxcc": 291,
+    "homeEntity": "United States of America",
+    "triggerComment": "YouTube",
+    "received_at": "2026-10-18T01:46:32.443065Z"
+  },
+  {
     "fullCallsign": "KB4LS",
     "callsign": "KB4LS",
     "frequency": "10.136",
@@ -1432,29 +1455,5 @@
     "spotterContinent": "NA",
     "triggerComment": "Everyday Ham",
     "received_at": "2026-10-17T20:16:01.081080Z"
-  },
-  {
-    "fullCallsign": "KB4LS",
-    "callsign": "KB4LS",
-    "frequency": "3.574474",
-    "band": "80m",
-    "mode": "ft8",
-    "modeDetail": "ft8",
-    "time": "20:15",
-    "spotter": "AI4UC/T",
-    "snr": -21,
-    "rawText": "DX de AI4UC/T: 3574.5 KB4LS FT8 -21 dB 2015Z (UberSDR 0.1.67)",
-    "title": "PSK Reporter spot KB4LS (3.574474 FT8)",
-    "source": "pskreporter",
-    "state": "US_SC",
-    "qsl": "lotw",
-    "dxcc": 291,
-    "entity": "United States of America",
-    "cq": "5",
-    "continent": "NA",
-    "homeDxcc": 291,
-    "homeEntity": "United States of America",
-    "triggerComment": "EDH Discord",
-    "received_at": "2026-10-17T20:15:56.598004Z"
   }
 ]
