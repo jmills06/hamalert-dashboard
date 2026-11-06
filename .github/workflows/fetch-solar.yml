@@ -2,9 +2,13 @@ name: Fetch Solar Conditions
 
 on:
   schedule:
-    # Run every hour at minute 0
+    # Run every 3 hours at minute 0
     - cron: '0 */3 * * *'
   workflow_dispatch: # Allow manual triggering
+
+concurrency:
+  group: fetch-solar
+  cancel-in-progress: false
 
 jobs:
   fetch-solar-data:
@@ -12,10 +16,10 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           
@@ -32,7 +36,7 @@ jobs:
           from datetime import datetime
 
           # Fetch XML data
-          response = requests.get('https://www.hamqsl.com/solarxml.php')
+          response = requests.get('https://www.hamqsl.com/solarxml.php', timeout=30)
           response.raise_for_status()
           
           # Parse XML
@@ -100,4 +104,20 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add solar-conditions.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update solar conditions data" && git push)
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update solar conditions data"
+          # Other processes (e.g. the spot cloud function) push to main often,
+          # so rebase onto the latest remote and retry if the push is rejected.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          echo "Failed to push after 5 attempts"
+          exit 1
